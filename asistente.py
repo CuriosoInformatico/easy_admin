@@ -74,7 +74,9 @@ def main():
 
 		elif option == '4':
 			name = str(input('Name of the module: '))
+			open(PATH + name + '/setup.sh').close()
 			system(EDITOR + ' ' + PATH + name + '/setup.sh')
+
 
 		else:
 			print ('>>   Wrong option   <<')
