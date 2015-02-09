@@ -1,5 +1,0 @@
-[MySQLdb]
-description = Módulo para manejar bases de datos mysql
-path = data/MySQL-for-Python-3
-install = data/MySQL-for-Python-3/setup.sh
-extra info = Funciona únicamente en Python 3.2
